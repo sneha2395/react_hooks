@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Hook_useState from './components/Hook_useState';
+
+import Parent from './components/Parent';
 
 function App() {
   return (
     <div className="App">
-     <Hook_useState/> 
+    <Parent/> 
     </div>
   );
 }
